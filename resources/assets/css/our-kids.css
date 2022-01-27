@@ -1,0 +1,30 @@
+section .our-kids-page .ourkids {
+    background: url("../img/bg-spiral.png") no-repeat left top -80px;
+}
+
+.ourkids {
+    margin-bottom: 50px;
+}
+.ourkids p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #222222;
+    padding: 30px 15px;
+}
+.video-block, .map-block {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 15px;
+    height: 0;
+    overflow: hidden;
+}
+.video-block iframe, .map-block iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

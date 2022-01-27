@@ -1,0 +1,121 @@
+section .mps-page .banner {
+    background: url("../img/bg-spiral.png") no-repeat left top -80px;
+}
+
+.banner {
+    background: url("../../assets/img/mps-banner.png") no-repeat bottom right;
+}
+
+
+.link-booklet {
+    padding: 15px 0 0 0;
+}
+
+.link-booklet a {
+    color: #7746d7;
+}
+
+.description {
+    padding: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #222222;
+}
+.definition p {
+    margin-top: 80px;
+    padding: 25px 15px 35px 25px;
+    max-width: 600px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+}
+.definition p span {
+    text-transform: uppercase;
+    color: #7649AD;
+    font-size: 28px;
+}
+
+@media (max-width: 1730px) {
+    .definition p {
+        margin-top: 140px;
+        max-width: 100%;
+    }
+    .body, .banner {
+        background: none;
+    }
+}
+
+/*****************************************************/
+
+.faq {
+    padding-bottom: 50px;
+}
+.description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #222222;
+}
+.collapsible {
+    list-style: none;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #222222;
+}
+
+.arrow {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E7D2F4;
+    position: relative;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.arrow-no-activ::before {
+    position: absolute;
+    content: url('../../assets/img/arrow-down-noactiv.svg');
+    cursor: pointer;
+    left: -35px;
+    top: -5px;
+}
+
+.arrow-activ::before {
+    position: absolute;
+    content: url('../../assets/img/arrow-up-activ.svg');
+    cursor: pointer;
+    left: -35px;
+    top: -5px;
+}
+
+.content {
+    margin: 10px auto;
+    font-size: 15px;
+    line-height: 19px;
+    color: #222222;
+    padding-left: 70px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-left: 2px solid #7746d7;
+}
+
+.open {
+    display: block;
+}
+
+.close {
+    display: none;
+}
